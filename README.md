@@ -1,17 +1,9 @@
-# Terraspace Project
+# Terraspace Example Project
 
-This is a Terraspace project. It contains code to provision Cloud infrastructure built with [Terraform](https://www.terraform.io/) and the [Terraspace Framework](https://terraspace.cloud/).
+Example terraspace project to test `terraspace all` and mock values in tfvars file.
+
+Related: https://community.boltops.com/t/terraspace-plan-all-gets-stuck-when-mock-values-are-used-in-tfvars/874
 
 ## Deploy
 
-To deploy all the infrastructure stacks:
-
     terraspace all up
-
-To deploy individual stacks:
-
-    terraspace up demo # where demo is app/stacks/demo
-
-## Terrafile
-
-To use more modules, add them to the [Terrafile](https://terraspace.cloud/docs/terrafile/).
